@@ -1,0 +1,163 @@
+h1{
+    background-color: green;
+}
+.todocontainer{
+    width: 600px;
+    text-align: center;
+    /* background-color: blue; */
+    background-color: #ccc;
+    margin: 30px auto;
+    padding-bottom: 20px;
+}
+.todocontainer input{
+    border:  1px solid #009688;
+    background-color: #009688;
+    outline: none;
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+   
+}
+.todocontainer .addtask{
+    /* border: 4px solid #003d37; */
+    margin-bottom: 20px;
+ 
+    background-color: #0096878e;
+    text-align: center;
+    padding: 5px 0;
+
+}
+.todocontainer .addtask span{
+ 
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    color: #009688;
+    font-size: 40px;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    
+    position: relative;
+    top: 10px;
+    left: -15px;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.todocontainer .contenttask{
+   
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: column;
+}
+.contenttask .notask{
+    display: flex;
+    padding: 5px 80px;
+    text-transform: capitalize;
+    font-size: 18px;
+    background-color: white;
+    margin-bottom: 10px;
+    width: 390px;
+    margin: 10px auto;
+    border-radius: 5px ;
+    -webkit-border-radius: 5px ;
+    -moz-border-radius: 5px ;
+    -ms-border-radius: 5px ;
+    -o-border-radius: 5px ;
+}
+.contenttask .task1{
+    display: flex;
+    padding: 5px 80px;
+    text-transform: capitalize;
+    font-size: 18px;
+    background-color: white;
+    margin-bottom: 10px;
+    width: 390px;
+    margin: 10px auto;
+    border-radius: 5px ;
+    -webkit-border-radius: 5px ;
+    -moz-border-radius: 5px ;
+    -ms-border-radius: 5px ;
+    -o-border-radius: 5px ;
+
+}
+
+.contenttask .task2{
+    display: flex;
+    padding: 5px 80px;
+    text-transform: capitalize;
+    font-size: 18px;
+    background-color: white;
+    margin-bottom: 10px;
+    width: 390px;
+    margin: 10px auto;
+    border-radius: 5px ;
+    -webkit-border-radius: 5px ;
+    -moz-border-radius: 5px ;
+    -ms-border-radius: 5px ;
+    -o-border-radius: 5px ;
+
+}
+.contenttask .task1 button{
+    border: 2px solid #E91E63ed;
+    position: relative;
+    right: -330px;
+    background-color: #E91E63;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.contenttask .task2 button{
+    position: relative;
+    right: -330px;
+    border: 2px solid #E91E63;
+    background-color: #E91E63;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.numbertask{
+   
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+    text-transform: capitalize;
+}
+.numbertask .task span{
+    background-color: #E91E63;
+    font-size: 14px;
+    text-align: center;
+    padding: 2px 4px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.numbertask .com span{
+    background-color: #009688;
+    font-size: 14px;
+    text-align: center;
+    padding: 2px 4px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+/* for js */
+.jh{
+ text-decoration: line-through;
+}
